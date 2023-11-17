@@ -1,0 +1,644 @@
+.contact img {
+  width: 10%;
+}
+.contact h4 {
+  color: #6C2C13;
+  font-family: Kanit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.email img {
+  width: 10%;
+}
+.email h4 {
+  color: #6C2C13;
+  font-family: Kanit;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.header {
+  background: #ffffff;
+}
+
+.menu {
+  background: #F58020;
+}
+
+.menu.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+.nav-link {
+  color: #FFF;
+  font-family: Kanit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.logo {
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  padding: 35px 22px;
+  position: absolute;
+  top: 0;
+  left: 8%;
+  z-index: 999;
+}
+
+.logo-possition {
+  position: relative;
+}
+
+#logo.sticky {
+  width: 220px;
+  height: 110px;
+  position: fixed;
+  top: 0;
+  left: 8%;
+  z-index: 999999;
+}
+#logo.sticky img {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -10%;
+}
+
+.banner1, .banner3, .banner2 {
+  height: 100vh;
+  background-image: url(public/images/banner1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.banner1 .text, .banner3 .text, .banner2 .text {
+  margin-top: 15%;
+}
+.banner1 .text h3, .banner3 .text h3, .banner2 .text h3 {
+  color: #FFF;
+  font-family: Kanit;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.banner1 .text h1, .banner3 .text h1, .banner2 .text h1 {
+  color: #ffffff;
+  font-family: Kanit;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.banner1 .text h1 span, .banner3 .text h1 span, .banner2 .text h1 span {
+  color: #FDBC11;
+}
+.banner1 .text button, .banner3 .text button, .banner2 .text button {
+  width: 300px;
+  border-radius: 2px;
+  background: #F58020;
+  color: #FFF;
+  font-family: Kanit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.banner2 {
+  background-image: url(public/images/bannar2.png);
+}
+
+.banner3 {
+  background-image: url(public/images/banner4.png);
+}
+
+.form {
+  width: 400px;
+  height: 620px;
+  background: rgba(245, 128, 32, 0.73);
+  position: absolute;
+  top: 2%;
+  right: 8%;
+}
+.form .drop {
+  border: 2px solid #ffffff;
+}
+.form .price-bar {
+  width: 85%;
+  height: 12px;
+  margin: auto;
+  position: relative;
+}
+.form .price-bar::before {
+  content: "";
+  width: 45%;
+  height: 12px;
+  background: #FDBC11;
+  position: absolute;
+  left: 25%;
+}
+.form .price-round1 {
+  width: 20px;
+  height: 20px;
+  background: #6C2C13;
+  position: absolute;
+  left: 24%;
+  top: -30%;
+}
+.form .price-round2 {
+  width: 20px;
+  height: 20px;
+  background: #6C2C13;
+  position: absolute;
+  top: -30%;
+  left: 68%;
+}
+.form .properties {
+  color: #6C2C13;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.form .design-bar {
+  position: relative;
+  top: 3%;
+}
+.form .design-bar .design {
+  width: 400px;
+  height: 12px;
+  background: #FDBC11;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+
+.recent-properties {
+  height: 100vh;
+  position: relative;
+}
+.recent-properties .heading {
+  color: #6C2C13;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.recent-properties .c {
+  position: relative;
+  margin-top: 3%;
+}
+.recent-properties .c .c-body {
+  width: 345px;
+  height: 120px;
+  background: #F58020;
+  position: absolute;
+  z-index: 999;
+  top: 70%;
+  left: 2%;
+}
+.recent-properties .recent-design {
+  position: absolute;
+  top: 3%;
+  right: 75%;
+}
+.recent-properties .recent-design .line {
+  width: 453px;
+  height: 2px;
+  background: #6C2C13;
+  margin-top: 0.6%;
+  position: relative;
+}
+.recent-properties .recent-design .circle {
+  width: 19px;
+  height: 19px;
+  background: #F58020;
+  position: absolute;
+  top: -100%;
+  left: 98%;
+  bottom: 5%;
+}
+
+.design-animation {
+  transform: translateX(-100%);
+  animation: dash 0.5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    transform: translateX(0%);
+  }
+}
+.h1-animation {
+  transform: translateX(200%);
+  animation: dash 0.5s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    transform: translateX(0%);
+  }
+}
+.carousel {
+  overflow: auto;
+}
+
+.h {
+  height: 90%;
+}
+
+.haven {
+  height: 100vh;
+  background: #FDBC11;
+  position: relative;
+}
+.haven .haven-img {
+  width: 50%;
+  position: absolute;
+  top: 5%;
+  right: 8%;
+}
+.haven .heading {
+  color: #6C2C13;
+  font-family: Kanit;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.haven .sub {
+  color: #6C2C13;
+  font-family: Kanit;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.haven .para {
+  color: #000;
+  font-family: Kanit;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.haven .btn {
+  border: 2px solid black;
+}
+
+.categories {
+  position: relative;
+}
+.categories h1 {
+  color: #6C2C13;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.categories .categories-design {
+  position: absolute;
+  top: 4%;
+  right: 70%;
+}
+.categories .categories-design .line {
+  width: 453px;
+  height: 2px;
+  background: #6C2C13;
+  margin-top: 0.6%;
+  position: relative;
+}
+.categories .categories-design .circle {
+  width: 19px;
+  height: 19px;
+  background: #F58020;
+  position: absolute;
+  top: -100%;
+  left: 98%;
+  bottom: 5%;
+}
+
+.cat1 {
+  position: relative;
+}
+.cat1 .cat1-text {
+  position: absolute;
+  top: 65%;
+  left: 20%;
+}
+.cat1 .cat1-text h3 {
+  color: #FDBC11;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.cat1 .cat1-text h5 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.cat1 .stand {
+  position: absolute;
+  top: 68%;
+  left: 3%;
+  width: 15%;
+  height: 3.5%;
+  background: #FFF;
+  transition: transform 0.3s ease;
+}
+
+.count {
+  height: 360px;
+  background: linear-gradient(180deg, rgba(245, 128, 32, 0.68) 17.71%, rgba(245, 128, 32, 0) 100%), url(public/images/count.png);
+}
+.count h1 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.count h5 {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.agent {
+  position: relative;
+}
+.agent h1 {
+  color: #6C2C13;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.agent .agent1 {
+  position: relative;
+}
+.agent .agent1 img {
+  position: relative;
+  z-index: 200;
+}
+.agent .agent1::after {
+  content: "";
+  width: 254px;
+  height: 303px;
+  border-radius: 40%;
+  background: #FDBC11;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  right: 10%;
+}
+.agent .agent-head {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.agent .agent-foot {
+  color: #908E8E;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.agent .agent-design {
+  position: absolute;
+  top: 8%;
+  right: 70%;
+}
+.agent .agent-design .line {
+  width: 453px;
+  height: 2px;
+  background: #6C2C13;
+  margin-top: 0.6%;
+  position: relative;
+}
+.agent .agent-design .circle {
+  width: 19px;
+  height: 19px;
+  background: #F58020;
+  position: absolute;
+  top: -100%;
+  left: 98%;
+  bottom: 5%;
+}
+
+.agent-button {
+  color: #000;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 2px solid #000;
+}
+
+.our-blog {
+  position: relative;
+}
+.our-blog h1 {
+  color: #6C2C13;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.our-blog .blog1 {
+  position: relative;
+}
+.our-blog .blog1 .blog-text {
+  background: rgba(245, 128, 32, 0.74);
+  width: 400px;
+  height: 406px;
+  position: absolute;
+  top: 18%;
+  left: 15%;
+}
+.our-blog .blog1 .blog-text h2 {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 15% 20%;
+}
+.our-blog .blog-design {
+  position: absolute;
+  top: 10%;
+  right: 70%;
+}
+.our-blog .blog-design .line {
+  width: 453px;
+  height: 2px;
+  background: #6C2C13;
+  margin-top: 0.6%;
+  position: relative;
+}
+.our-blog .blog-design .circle {
+  width: 19px;
+  height: 19px;
+  background: #F58020;
+  position: absolute;
+  top: -100%;
+  left: 98%;
+  bottom: 5%;
+}
+
+.testimonial {
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(255, 187, 0, 0.4588235294) 10%, rgba(253, 188, 17, 0.1) 90%), url(public/images/testbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonial h1 {
+  color: #FDBC11;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 5%;
+}
+
+.footer {
+  height: 100vh;
+  background: url(public/images/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer h1 {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-top: 5%;
+}
+.footer .logo-footer {
+  width: 325px;
+  height: 240px;
+  background: #FFF;
+}
+
+.copy {
+  height: 150px;
+}
+
+.loader {
+  width: 100%;
+  height: 100vh;
+  background-color: #f0c7a7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999999;
+  display: grid;
+  place-items: center;
+}
+
+.spiner {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid white;
+  border-top-color: #F58020;
+  animation: spin 0.3s ease-in-out infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}
+.loader-hidden {
+  display: none;
+}
+
+.camera {
+  width: 100%;
+  height: 600px;
+  perspective: 1000px;
+}
+.camera .blog1 {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  position: relative;
+  transition: all 0.8s ease-in-out;
+}
+.camera .blog1 .front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  backface-visibility: hidden;
+}
+.camera .blog1 .front img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.camera .blog1 .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #F58020;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+.camera .blog1 .back img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.camera .blog1:hover {
+  transform: rotateY(180deg);
+}/*# sourceMappingURL=style.css.map */
